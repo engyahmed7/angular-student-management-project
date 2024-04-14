@@ -1,0 +1,20 @@
+{
+  "students": [
+    {
+      "id": "06a5",
+      "name": "engyy",
+      "mobNumber": "01114621092",
+      "email": "engya306@gmail.com",
+      "age": "23",
+      "password": "123456",
+      "address": {
+        "addressLine1": "aa",
+        "addressLine2": "aa",
+        "city": "cairo",
+        "state": "Alexandria",
+        "zipCode": "21524"
+      },
+      "gender": "female"
+    }
+  ]
+}
