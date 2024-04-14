@@ -1,28 +1,42 @@
-# CrudProject
+# Angular CRUD with JSON Server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+This project is a simple CRUD (Create, Read, Update, Delete) application built with Angular for the frontend and JSON Server for the backend.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Add new students with their details such as name, mobile number, age, email, address, and gender.
+- View a list of all students.
+- View details of a specific student.
+- Update student information.
+- Delete a student from the database.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: A popular framework for building client-side web applications.
+- JSON Server: A simple and fast backend for prototyping and mocking RESTful APIs.
+- HTTP Client: Angular's built-in module for making HTTP requests to the backend server.
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Before running this project, ensure that you have the following installed:
 
-## Running unit tests
+- Node.js and npm (Node Package Manager)
+- Angular CLI (Command Line Interface)
+- JSON Server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started
 
-## Running end-to-end tests
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the JSON Server by running `json-server --watch mock-api-data.json` to serve the mock API.
+5. In a separate terminal, start the Angular development server with `ng serve`.
+6. Open your web browser and visit `http://localhost:4200` to view the application.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Usage
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-"# angular-student-management-project" 
+- To add a new student, click on the "Add Student" button and fill in the required details.
+- To view a list of all students, navigate to the "All Students" page.
+- To view details of a specific student, click on their name in the student list.
+- To update a student's information, click on the "Update" button next to their details.
+- To delete a student, click on the "Delete" button and confirm the action in the modal dialog.
