@@ -35,8 +35,8 @@ Before running this project, ensure that you have the following installed:
 
 ## Usage
 
-- To add a new student, click on the "Add Student" button and fill in the required details.
-- To view a list of all students, navigate to the "All Students" page.
-- To view details of a specific student, click on their name in the student list.
+- To add a new student, click on the "+" icon in the bottom right corner of the screen. This will open the "Add Student" form where you can fill in the required details.
+- To view a list of all students, navigate to the "Home" page.
+- To view details of a specific student, click on their email in the student list.
 - To update a student's information, click on the "Update" button next to their details.
 - To delete a student, click on the "Delete" button and confirm the action in the modal dialog.
